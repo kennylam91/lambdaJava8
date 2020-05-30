@@ -37,6 +37,12 @@ public class Person {
 	public void setAge(Long age) {
 		this.age = age;
 	}
+
+	@Override
+	public String toString() {
+		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + "]";
+	}
+	
 	
 	
 }
